@@ -1,0 +1,83 @@
+	
+body{
+background: rgb(130,255,255);
+overflow:visible;
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+div.main
+{
+    width:360px;
+	margin-top:130px;
+	margin-left:500px;
+    height:400px;
+    background:rgb(255,255,255);
+    padding:5px;
+	border:1px solid rgb(10,186,85);
+    -moz-border-radius:20px;
+    -webkit-border-radius:20px;
+	text-align:center;
+}
+h1
+{
+	margin-top:20px;
+	color:rgb(5,186,132);
+	text-shadow:5px 5px 10px rgb(27,152,99);
+}
+ input[type=password]
+{
+    border: 1px solid rgb(255,255,255);
+    height: 18px;
+}
+
+
+input[type=text]
+{
+    border: 1px solid rgb(255,255,255);
+    height: 18px;
+}
+ label{
+    color:rgb(5,186,132);
+    width:98px;
+    float: left;
+    text-align: right;
+    margin-right: 6px;
+    margin-top:2px;
+	font-size:15px;
+}
+p.un
+{
+    clear:both;
+    margin-top:100px ;
+    color:rgb(5,186,132);
+    padding:4px;
+}
+
+p
+{
+    clear:both;
+    margin-bottom:20px ;
+    color:rgb(5,186,132);
+    padding:4px;
+}
+
+button
+{
+    background: rgb(5,186,132) url(../img/overlay.png) repeat-x;
+    padding: 4px 5px 4px;
+    color: rgb(255,255,255);
+    text-decoration: none;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    cursor: pointer;
+    float:center;
+    font-size:18px;
+    margin:10px;
+}
